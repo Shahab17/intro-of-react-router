@@ -1,3 +1,8 @@
 .routing a {
     margin-right: 20px;
 }
+
+nav a.active{
+    color: black;
+    text-decoration: underline;
+}
