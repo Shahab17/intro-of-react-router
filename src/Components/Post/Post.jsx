@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
  
 
 const Post = ({postData}) => {
@@ -13,6 +15,8 @@ const Post = ({postData}) => {
         <div style={postStyle}>
             <h3>post id: {id} </h3>
             <p>{title} </p>
+            <Link to={`/post/${id}`}>Post Details</Link>
+            <Link to={`/post/${id}`}><button>SPD</button></Link>
         </div>
     );
 };
