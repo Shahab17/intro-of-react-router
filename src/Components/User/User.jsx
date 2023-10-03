@@ -15,7 +15,7 @@ const User = ({userData}) => {
             <h3> {name} </h3>
             <h6> {email} </h6>
             <p> {phone} </p>
-            <Link to={`/user/${id}`}>Show Details</Link>
+          {/*   <Link to={`/user/${id}`}>Show Details</Link> */}
             <Link to={`/user/${id}`}><button>Click Me</button></Link>
         </div>
     );

@@ -22,8 +22,8 @@ const Post = ({ postData }) => {
         <div style={postStyle}>
             <h3>post id: {id} </h3>
             <p>{title} </p>
-            <Link to={`/post/${id}`}>Post Details</Link>
-            <Link to={`/post/${id}`}><button>SPD</button></Link>
+          {/*   <Link to={`/post/${id}`}>Post Details</Link>
+            <Link to={`/post/${id}`}><button>SPD</button></Link> */}
             <button onClick={handleClickButton}>Click To See Details</button>
         </div>
     );
